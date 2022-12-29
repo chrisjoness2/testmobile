@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a193924731.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+
+
+
+  <div id="page-container">
+
+
+    <div id="myNav" class="overlay">
+
+
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="alltops.html">Tops</a>
+        <a href="alldresses.html">Dresses</a>
+
+      </div>
+
+
+    </div>
+
+    <span style="font-size:45px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <a href="index.html">
+      <h1 class="my-logo-name"> ΌMΟRFΟ </h1>
+    </a>
+
+    <div class="shopping-bag">
+      <a class="shopping-bag-page" href="ShoppingBag.html">
+        <p><i class="fa-solid fa-bag-shopping"></i> Shopping Bag <span class="bag-number">0</span> </p>
+      </a>
+    </div>
+
+
+    <img class="individual-item-img" src="tops/top1.jpeg" alt="top1">
+
+
+    <section id="all-item-description-div">
+
+      <div class="individual-item-description">
+        <h4 class="individual-item-title">Snug Fit Long Sleeve Sweater</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget arcu efficitur nisl sagittis tristique. Quisque ultrices magna aliquet dui tristique, eu imperdiet tortor vehicula. Maecenas et odio vel ipsum.</p>
+        <h6 class="individual-price">$49.99</h6>
+        <div class="individual-dropdown">
+          <button type="button" class="btn-secondary select-size-button btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            Select Size
+          </button>
+          <button type="button" class="btn-dark individual-add-to-shopping-bag-button" name="button">
+            Add To Shopping Bag
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">XS</a></li>
+            <li><a class="dropdown-item" href="#">S</a></li>
+            <li><a class="dropdown-item" href="#">M</a></li>
+            <li><a class="dropdown-item" href="#">LG</a></li>
+            <li><a class="dropdown-item" href="#">XL</a></li>
+
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer id="individual-item-footer">
+      <i class="social-icon icon-4x fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright AGGIE</p>
+    </footer>
+
+
+
+  </div>
+
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
